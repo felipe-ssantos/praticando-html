@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+:root {
+  --branco-principal: #ffffff;
+  --cinza-secundario: #c0c0c0;
+  --botao-azul: #167bf7;
+  --cor-de-fundo: #00030c;
+  --fonte-principal: "inter";
+  --fonte-secundaria: "normal";
+  --botao-azul-efeito: #f0e54a;
+}
+
+/* Background site */
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--branco-principal);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.container__titulo {
+  font-family: "Inter";
+  font-style: var(--fonte-secundaria);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.principal {
+  background-image: url("img/Background.png");
+  background-repeat: no-repeat; /* Não repetir o background da imagem */
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  height: 100vh; /* 100vh = 100 view port height */
+  display: grid;
+  grid-template-columns: 50% 50%; /* Each section is split half and half in the 50 by 50 layout, this makes the block limited to 50 per section */
+}
+
+.container__botao {
+  background-color: var(--botao-azul);
+  border-radius: 7px;
+  padding: 1em;
+  color: var(--branco-principal);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.botao__secundario {
+  background-color: transparent;
+  border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+  font-size: 12px;
+  font-weight: 400px;
+  font-family: var(--fonte-principal);
+  font-style: var(--fonte-secundaria);
+  color: var(--cinza-secundario);
+}
+
+.container__imagem {
+  margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+  margin: 0 6em;
+}
+
+.secundario__img {
+  width: 498px;
+  height: 560px;
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 8em;
+}
+
+.descricao__titulo {
+  font-family: var(--fonte-principal);
+  font-style: var(--fonte-secundaria);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+
+  color: var(--branco-principal);
+  margin-bottom: 0.1em;
+  /* identical to box height, or 58px */
+}
+
+.descricao__texto {
+  font-family: var(--fonte-principal);
+  font-style: var(--fonte-secundaria);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+  display: inline-block;
+  margin: 1em 0;
+}
+
+.container__descricao {
+  padding: 2em;
+}
+
+/* Devices section */
+
+.dispositivos__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none; /* removes style from the list, which by default comes in disk format  */
+  margin: 4em 0; /* margin between title and devices */
+}
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos__titulo {
+  font-family: var(--fonte-principal);
+  font-style: var(--fonte-secundaria);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--branco-principal);
+}
+
+.lista__item {
+  font-family: var(--fonte-principal);
+  font-style: var(--fonte-secundaria);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
+
+  text-align: center;
+
+  color: var(--branco-principal);
+}
+
+/* rodape */
+.rodape {
+  text-align: center;
+}
+.rodape__logo {
+  width: 102px;
+  height: 35.28px;
+  left: 669px;
+  top: 3128px;
+  margin: 140px 0 30px 0;
+}
+
+.rodape__lista {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Centers items horizontally */
+  padding: 5px 0 5px 0;
+  margin: 20px 158px 0 158;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.lista__link > a {
+  text-decoration: none;
+  color: var(--branco-principal);
+}
+
+.lista__link > a:hover {
+  color: var(--botao-azul);
+}
+
+.lista__link > a:active {
+  color: #3afc9b;
+}
+
+.footer_text1 {
+  font-family: var(--fonte-principal);
+  font-style: var(--fonte-secundaria);
+  color: var(--cinza-secundario);
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding: 0;
+  margin: 24px 120px 24px 120px;
+}
+
+.footer_text2 {
+  font-family: var(--fonte-principal);
+  font-style: var(--fonte-secundaria);
+  color: var(--cinza-secundario);
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding: 0;
+  margin: 0px 120px 100px 120px;
+}
+
+.footer_text1:hover,
+.footer_text2:hover {
+  color: #3afc9b;
+}
+
+.container__botao:hover {
+  background-color: var(--botao-azul-efeito);
+  color: var(--cor-de-fundo);
+}
