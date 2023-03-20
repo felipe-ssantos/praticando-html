@@ -189,7 +189,8 @@ body {
   color: #3afc9b;
 }
 
-.footer_text1 {
+/* footer */
+.footer_text {
   font-family: var(--fonte-principal);
   font-style: var(--fonte-secundaria);
   color: var(--cinza-secundario);
@@ -200,19 +201,11 @@ body {
   margin: 24px 120px 24px 120px;
 }
 
-.footer_text2 {
-  font-family: var(--fonte-principal);
-  font-style: var(--fonte-secundaria);
-  color: var(--cinza-secundario);
-  font-weight: 400;
-  font-size: 14px;
-  text-align: center;
-  padding: 0;
-  margin: 0px 120px 100px 120px;
+.footer_text--with-large-bottom-margin {
+  margin-bottom: 100px; 
 }
 
-.footer_text1:hover,
-.footer_text2:hover {
+.footer_text:hover {
   color: #3afc9b;
 }
 
