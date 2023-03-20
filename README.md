@@ -2,7 +2,7 @@
 
 Praticando html e css na criação de uma landing page do Alura Plus.
 
-| :placard: |     |
+| Descrições |     | 
 | -------------  | --- |
 | :sparkles: Nome do curso        | **Praticando HTML e CSS** |
 | :label: Tecnologias | html e css |
