@@ -1,22 +1,28 @@
 # Alura Plus - Landing Page
 
-Praticando html e css na criação de uma landing page do Alura Plus.
+Este é um projeto desenvolvido como parte do curso [HTML e CSS: Praticando e aprendendo](https://www.alura.com.br/curso-online-html-css-praticando-html-css).
 
-| Descrições |     | 
-| -------------  | --- |
-| :sparkles: Nome do curso        | **Praticando HTML e CSS** |
-| :label: Tecnologias | html e css |
-| :rocket: URL do projeto        | https://felipe-ssantos.github.io/praticando-html/|
+## 🚀 Sobre o projeto
+
+O objetivo deste projeto é praticar as habilidades em HTML e CSS, criando uma landing page para o Alura Plus, plataforma de cursos da Alura.
+
+## 💻 Tecnologias utilizadas
+
+- HTML
+- CSS
+
+## 📷 Screenshots
+
+![Landing page Alura Plus](./img/review-landing-page-alura-plus.png)
+
+## 🌐 Deploy
+
+Este projeto foi implantado no GitHub Pages e pode ser acessado [aqui](https://felipe-ssantos.github.io/praticando-html/).
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+
 ---
-<h1 align="center">
-    <img alt="Página de divulgação Alura Plus" title="Alura-Plus" src="./img/review-landing-page-alura-plus.png" />
-</h1>
 
----
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-<p align="center">Desenvolvido por 💜 N.F.S.S👋</p>
+Desenvolvido por N.F.S.S 💜 em parceria com a Alura.
